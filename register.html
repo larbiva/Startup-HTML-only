@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register Page</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <h4 style="color: brown;">Must be 21 or older to proceed.</h4>
+        <a href="index.html">Back to Main Page</a><br>
+        <a href="aboutpage.html"><strong>About</strong></a><br>
+            <h3>Preferences Form</h3><hr>
+            <form method="GET">
+                The base liquor you would like to use: 
+                <select name="The base liquor you would like to use">
+                    <option value="Gin" name="Gin">Gin</option>
+                    <option value="Vodka" name="Vodka">Vodka</option>
+                    <option value="Tequila" name="Tequila">Tequila</option>
+                    <option value="Rum" name="Rum">Rum</option>
+                    <option value="Bourbon Whisky" name="Bourbon Whisky">Bourbon Whisky</option>
+                    <option value="Rye Whiskey" name="Rye Whiskey">Rye Whiskey</option>
+                    <option value="Scotch Whisky" name="Scotch Whisky">Scotch Whisky</option>
+                    <option value="Cognac" name="Cognac">Cognac</option>
+                </select><br><br>
+                You prefer drinks served:<br>
+                <input type="radio" name="You prefer drinks served" value="with ice">with ice<br>
+                <input type="radio" name="You prefer drinks served" value="without ice">without ice<br>
+                <input type="radio" name="You prefer drinks served" value="ether way">ether way<br><br>
+                Strength preference:<br>
+                <input type="checkbox" name="alcohol forward">alcohol forward<br>
+                <input type="checkbox" name="taste of alcohol is not pronounced">taste of alcohol is not pronounced<br><br>
+                The tastes I like:<br>
+                <input type="checkbox" name="sweetness">sweetness<br>
+                <input type="checkbox" name="tartness">tartness<br>
+                <input type="checkbox" name="bitterness">bitterness<br>
+                <input type="checkbox" name="spiciness">spiciness<br>
+                <input type="checkbox" name="saltiness">saltiness<br><br>
+                In general, I like to try out new things:<br>
+                <input type="radio" name="In general, I like to try out new things" value="any time">any time<br>
+                <input type="radio" name="In general, I like to try out new things" value="sometimes">sometimes<br>
+                <input type="radio" name="In general, I like to try out new things" value="Never, I like what I like">Never, I like what I like<br><br>
+            <h3>Register form</h3><hr> 
+                First Name: <input type="text" name="firstname" required><br>
+                Last Name: <input type="text" name="lastname"><br>
+                Email: <input type="email" placeholder="sample@email.com" name="email" required><br>
+                Password: <input type="password" placeholder="at least 5 characters" name="password" min="5"><br>
+                Birthday: <input type="date" name="birthday"><br>
+                Gender: <br>
+                <input type="radio" name="gender" value="Female">Female<br>
+                <input type="radio" name="gender" value="Male">Male<br>
+                <input type="radio" name="gender" value="Other">Other<br><br>
+                <input type="submit" value="Submit">
+                <input type="reset"><br>
+            </form><br>
+         <a href="index.html">Back to Main Page</a>
+</body>
+</html>
+
